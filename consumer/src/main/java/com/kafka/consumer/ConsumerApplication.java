@@ -19,7 +19,7 @@ public class ConsumerApplication {
 	public static void main(String[] args) {
 		log.info("I am a Kafka Consumer");
 
-		String bootstrapServers = "localhost:29092";
+		String bootstrapServers = "localhost:9092";
 		String groupId = "group_id";
 		String topic = "topico.comando.teste";
 
